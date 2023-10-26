@@ -3,7 +3,7 @@ services:
   name: typesense
   env: docker
   repo: https://github.com/prospectpulse/typesense-on-render.git
-  plan: starter
+  plan: standard
   healthCheckPath: /health
   disk:
     name: typesense-data
